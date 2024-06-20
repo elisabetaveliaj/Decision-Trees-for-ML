@@ -23,7 +23,7 @@ The `evaluate_model` function performs 10-fold cross-validation and evaluates th
 
 ### Key Findings
 The project evaluated four configurations of Decision Tree classifiers across three data balancing techniques (unbalanced, oversampled, and undersampled). Here are the key findings:
-## Single Decision Tree:
+### Single Decision Tree:
 
 - **Unbalanced Data**:
   - Moderate performance
@@ -38,7 +38,7 @@ The project evaluated four configurations of Decision Tree classifiers across th
   - Lowest performance
   - Reduced dataset size affects the model's ability to generalize
 
-## Pruned Decision Tree:
+### Pruned Decision Tree:
 
 - **General Improvements**:
   - Improved accuracy and Kappa scores compared to the single decision tree model
@@ -51,7 +51,7 @@ The project evaluated four configurations of Decision Tree classifiers across th
   - Moderate performance
   - Better than the single decision tree model but still not ideal
 
-## Bagged Trees:
+### Bagged Trees:
 
 - **General Enhancements**:
   - Enhanced stability and overall performance
@@ -63,7 +63,7 @@ The project evaluated four configurations of Decision Tree classifiers across th
 - **Unbalanced Data**:
   - Performs well, though less effective with undersampled data
 
-## Bagged and Pruned Trees:
+### Bagged and Pruned Trees:
 
 - **Combined Techniques**:
   - Balanced improvement in accuracy, recall, and F1 scores across all data configurations
